@@ -1,0 +1,27 @@
+.about-me-long {
+  color: #c5c5c5;
+  line-height: 25px;
+  font-size: 15px;
+}
+.service-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  width: 100%;
+  gap: 50px;
+  padding: 30px;
+}
+
+@media (max-width: 700px) {
+  .service-card {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 550px) {
+  .service-card {
+    gap: 20px;
+    flex-flow: column nowrap;
+  }
+}

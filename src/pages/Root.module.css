@@ -1,0 +1,14 @@
+.main-container {
+  position: relative;
+  z-index: 0;
+}
+
+.sub-container-one {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sub-container-two {
+  position: relative;
+  z-index: 0;
+}
