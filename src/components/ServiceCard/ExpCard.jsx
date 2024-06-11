@@ -1,5 +1,6 @@
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import styles from "./ExpCard.module.css";
+import "./styles.css";
 
 const ExpCard = ({
   index,
@@ -13,13 +14,16 @@ const ExpCard = ({
 }) => {
   return (
     <VerticalTimelineElement
+      className={"exp-card"}
       contentStyle={{
         background: "#1d1836",
         color: "#fff",
         border: "2px solid #0a2b5145",
         boxShadow: "1px 2px 10px 10px #08045a21",
       }}
-      contentArrowStyle={{ borderRight: "7px solid  rgb(46 33 103 / 89%)" }}
+      contentArrowStyle={{
+        borderRight: "7px solid  rgb(46 33 103 / 89%)",
+      }}
       date={date}
       iconStyle={{ background: "#161133" }}
       // icon={

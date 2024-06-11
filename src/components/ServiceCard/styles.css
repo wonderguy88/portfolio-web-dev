@@ -1,0 +1,8 @@
+.exp-card ._details-section_ujte7_15:hover {
+  scale: 1.1;
+  transition: scale 1s;
+}
+.exp-card ._details-section_ujte7_15 {
+  scale: 1;
+  transition: scale 1s;
+}

@@ -101,6 +101,13 @@
   filter: brightness(70%);
 }
 
+/* .vertical-timeline-element-conetent {
+  } */
+.exp-card .vertical-timeline-element-content {
+  border: "2px solid yellow";
+  color: "red";
+}
+
 @media (max-width: 1200px) {
   .company-icon-img {
     width: 40px;
