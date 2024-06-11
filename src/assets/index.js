@@ -9,11 +9,11 @@ import tcsIon from "./company/tcsion.png";
 import internshipone from "./certificate/internship1.png";
 import internshiptwo from "./certificate/internship2.png";
 
-import gemini from "./projects/gemini.png";
-import mernBlog from "./projects/blog.png";
+import pdfviewerImg from "./projects/pdfviewer.png";
+import elsterImg from "./projects/elster.png";
 import dalle2 from "./projects/dalle2.png";
 import chatsonic from "./projects/chatsonic.png";
-import socialvideov2 from "./projects/sociavideov2.png";
+import chairImg from "./projects/chair.png";
 import codecarbon from "./projects/codecarbon.png";
 import summerize from "./projects/summerize.png";
 import phpecommers from "./projects/phpecommers.png";
@@ -27,6 +27,8 @@ import phpblog from "./projects/phpblog.png";
 import onlineexamination from "./projects/onlineexamination.png";
 import urlshortner from "./projects/urlshortner.png";
 import nodelibrary from "./projects/nodelibrary.png";
+import bibleImg from "./projects/bible.png";
+import homedesignImg from "./projects/homedesign.png";
 
 import aboutLogo from "./logo/icons8-about-48.png";
 import skillLogo from "./logo/skills.png";
@@ -46,10 +48,12 @@ export {
   tcsIon,
   internshiptwo,
   internshipone,
-  gemini,
-  mernBlog,
+  pdfviewerImg,
+  elsterImg,
   dalle2,
-  socialvideov2,
+  chairImg,
+  bibleImg,
+  homedesignImg,
   chatsonic,
   codecarbon,
   summerize,

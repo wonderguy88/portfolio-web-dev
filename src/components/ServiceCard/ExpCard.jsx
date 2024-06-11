@@ -22,19 +22,19 @@ const ExpCard = ({
       contentArrowStyle={{ borderRight: "7px solid  rgb(46 33 103 / 89%)" }}
       date={date}
       iconStyle={{ background: "#161133" }}
-      icon={
-        <div className={styles["company-icon"]}>
-          <img
-            src={companyIcon}
-            alt={company}
-            className={styles["company-icon-img"]}
-          />
-        </div>
-      }
+      // icon={
+      //   <div className={styles["company-icon"]}>
+      //     <img
+      //       src={companyIcon}
+      //       alt={company}
+      //       className={styles["company-icon-img"]}
+      //     />
+      //   </div>
+      // }
     >
       <div className={styles["details-section"]}>
         <div className={styles["company-details"]}>
-          <img src={companyIcon} alt="company" />
+          {/* <img src={companyIcon} alt="company" /> */}
           <div className={styles["company-detais-sub"]}>
             <h1>{title}</h1>
             <h4>{company}</h4>
@@ -59,9 +59,9 @@ const ExpCard = ({
             </ul>
           </div>
         </div>
-        <a target="_blank" href={certiImg} className={styles["certiimage"]}>
+        {/* <a target="_blank" href={certiImg} className={styles["certiimage"]}>
           <img src={certiImg} alt="certiimage" />
-        </a>
+        </a> */}
       </div>
     </VerticalTimelineElement>
   );

@@ -3,19 +3,21 @@ import {
   codecarbon,
   dalle2,
   djangolms,
-  gemini,
+  pdfviewerImg,
   heartdesease,
   housekeeping,
   internshipone,
   internshiptwo,
-  mernBlog,
+  elsterImg,
   nodelibrary,
   onlineexamination,
   phpblog,
   phpecommers,
-  socialvideov2,
+  chairImg,
   summerize,
   tcsIon,
+  bibleImg,
+  homedesignImg,
 } from "../assets";
 
 const MyBio = {
@@ -207,130 +209,143 @@ const experiences = [
 
 const projects = [
   {
-    name: "Gemini AI Web App",
+    name: "PDFViewer Web App",
     description:
-      "Gemini AI is an innovative web application that brings an interactive chat experience with the help of Google Gemini Pro api. Built using Node.js, React.js, MongoDB, and Redux Toolkit, this app allows users to engage in text-based conversations with Gemini AI. The application features Google OAuth V2 for user authentication, enabling enhanced capabilities and personalization.",
+      "This web application is an advanced PDF viewer web application designed to enhance your reading and document interaction experience. With an intuitive interface and a suite of powerful features, our app redefines how you engage with PDF documents. The Key Features are Pagination and Page Scrolling, Advanced Research, Word Meaning Lookup, AI Assistance, Annotations, User-Friendly Interface.",
     tags: [
       {
-        name: "react",
-        color: "#00cdc5",
+        name: "Laravel",
+        color: "#FFD700",
       },
       {
-        name: "mongodb",
-        color: "#449f44",
+        name: "pdf.js",
+        color: "#FFDAB9",
       },
       {
-        name: "node",
-        color: "#7bd77b",
+        name: "PHP",
+        color: "#FF7F50",
       },
       {
-        name: "redux",
-        color: "#d32c97",
-      },
-    ],
-    category: ["web", "all"],
-    isLive: true,
-    liveLink: "https://geminichatai.netlify.app/",
-    image: gemini,
-    source_code_link: "https://github.com/shuvra-matrix/Gemini-Ai--MERN",
-  },
-  {
-    name: "BlogSpot CMS Web App",
-    description:
-      "BlogSpot is a web application built using React.js for the frontend, Node.js for the backend, and MongoDB as the database. It allows users to read blogs posted by other writers and create and publish their own blogs. The project utilizes the TinyMCE text editor to enhance the blog writing experience.",
-    tags: [
-      {
-        name: "react",
-        color: "#00cdc5",
-      },
-      {
-        name: "mongodb",
-        color: "#449f44",
-      },
-      {
-        name: "node",
-        color: "#7bd77b",
-      },
-    ],
-    category: ["web", "all"],
-    isLive: true,
-    liveLink: "https://publicblogspot.netlify.app/",
-    image: mernBlog,
-    source_code_link:
-      "https://github.com/shuvra-matrix/MERN-CMS-PROJECT?tab=readme-ov-file",
-  },
-  {
-    name: "Vidown Web App",
-    description:
-      "Vidown is a powerful web application that enables you to effortlessly download publicly accessible videos from popular social media platforms, including Twitter, YouTube, Facebook, and Instagram. Built with a robust backend in Node.js and a responsive frontend in React.js, Vidown provides a seamless and user-friendly video downloading experience.",
-    tags: [
-      {
-        name: "react",
-        color: "#00cdc5",
-      },
-      {
-        name: "mongodb",
-        color: "#449f44",
-      },
-      {
-        name: "node",
-        color: "#7bd77b",
-      },
-    ],
-    category: ["web", "all"],
-    isLive: true,
-    liveLink: "https://vidown.netlify.app/",
-    image: socialvideov2,
-    source_code_link:
-      "https://github.com/shuvra-matrix/SOCIAL-MEDIA-VIDEO-DOWNLOAD---MERN",
-  },
-  {
-    name: "Chat Sonic Ai Chat App",
-    description:
-      "Chat Sonic is an innovative web application developed using Node.js, OpenAI API, and harnessing the capabilities of Stable Diffusion v2.1 models. This powerful app combines the functionalities of a chatbot, image generation, and Progressive Web App (PWA) support, offering users a seamless and immersive experience.",
-    tags: [
-      {
-        name: "ejs",
-        color: "#cfcc2c",
-      },
-      {
-        name: "mongodb",
-        color: "#449f44",
-      },
-      {
-        name: "node",
-        color: "#7bd77b",
+        name: "JavaScript",
+        color: "#90EE90",
       },
     ],
     category: ["web", "all"],
     isLive: false,
-    liveLink: "https://vidown.netlify.app/",
-    image: chatsonic,
-    source_code_link: "https://github.com/shuvra-matrix/CHAT-SONIC",
+    // liveLink: "https://geminichatai.netlify.app/",
+    image: pdfviewerImg,
+    source_code_link: "https://github.com/nikolozi0525/PDFViewer",
   },
   {
-    name: "DALL-E 2 Clone",
+    name: "3D Furniture Design",
     description:
-      "DALL-E 2 is a cutting-edge web application that harnesses the power of AI to generate images from text descriptions. Inspired by Stable Defusion 2.1, this app allows users to unleash their creativity by converting textual ideas into stunning visual artwork.",
+      "This configuration app allows users to design the color, material, type, shape of furniture and helps to estimate the total price. With rotating, user-interactive interface, our app can show the whole appreance of the furniture in detail, and allows users to design furniture through their vision.",
     tags: [
+      {
+        name: "Three.js",
+        color: "#449f44",
+      },
       {
         name: "react",
         color: "#00cdc5",
       },
       {
-        name: "mongodb",
-        color: "#449f44",
+        name: "Vite",
+        color: "#00FFFF",
       },
       {
-        name: "node",
+        name: "WebGL",
         color: "#7bd77b",
       },
     ],
     category: ["web", "all"],
     isLive: true,
-    liveLink: "https://dalle2ai.netlify.app/",
-    image: dalle2,
-    source_code_link: "https://github.com/shuvra-matrix/DALL-E-2-Clone--MERN-",
+    liveLink: "https://chair3d-config.vercel.app/",
+    image: chairImg,
+    source_code_link: "https://github.com/nikolozi0525/chair3d-config",
+  },
+  {
+    name: "Elster Portal App",
+    description:
+      "This website is the official ELSTER platform for settling your outstanding tax payments with ELSTER. According to European law, it is extremely important that you promptly pay the tax money you are owed. Otherwise, there is a risk that the outstanding tax money owed to you by the tax office will no longer be able to be collected because the legal deadline has already passed.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "#00cdc5",
+        color: "#7bd77b",
+      },
+      {
+        name: "PostgreSQL",
+        color: "#449f44",
+      },
+      {
+        name: "Prisma",
+        color: "#FF7F50",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "#00FFFF",
+      },
+    ],
+    category: ["web", "all"],
+    isLive: true,
+    liveLink: "https://www.elster.de/eportal/infoseite/aktuelles",
+    image: elsterImg,
+    source_code_link: "https://github.com/nikolozi0525/nextjs-elster-portal",
+  },
+  {
+    name: "Bible Interactive App",
+    description:
+      "Bible Interactive web app (mobile compatible) that does random questionnaires, based on https://bolls.life/api. Users should be correct about the random bible verse, the book and chapter where it came from. With User-friendly and Responsive, clean and creative interface,  Fade out after selecting, and then fade in for the next items for selection. i.e. smooth transition between in-page transitions.",
+    tags: [
+      {
+        name: "react",
+        color: "#cfcc2c",
+      },
+      {
+        name: "webpack",
+        color: "#449f44",
+      },
+      {
+        name: "bible.api",
+        color: "#7bd77b",
+      },
+      {
+        name: "webpack",
+        color: "#00FFFF",
+      },
+    ],
+    category: ["web", "all"],
+    isLive: true,
+    liveLink: "https://react-bible-question-survey.vercel.app/",
+    image: bibleImg,
+    source_code_link:
+      "https://github.com/nikolozi0525/react-bible-question-survey",
+  },
+  {
+    name: "Home Design Tool",
+    description:
+      "This tool is a innovative project dedicated to revolutionizing the future of sustainable living. Our meticulously planned hexagonal structures embody forward-thinking design principles, maximizing space efficiency while minimizing environmental impact. Through the utilization of solar electricity and other innovative technologies, we're paving the way for a greener, more sustainable future.",
+    tags: [
+      {
+        name: "three.js",
+        color: "#00cdc5",
+      },
+      {
+        name: "react",
+        color: "#449f44",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "#7bd77b",
+      },
+    ],
+    category: ["web", "all"],
+    isLive: true,
+    liveLink: "https://threejs-home-design-tool.vercel.app/",
+    image: homedesignImg,
+    source_code_link:
+      "https://github.com/nikolozi0525/threejs-home-design-tool",
   },
   {
     name: "All Url File Size",
@@ -350,7 +365,7 @@ const projects = [
     isLive: false,
     liveLink: "https://code-carbon.onrender.com/",
     image: nodelibrary,
-    source_code_link: "https://github.com/shuvra-matrix/all-url-file-size",
+    // source_code_link: "https://github.com/shuvra-matrix/all-url-file-size",
   },
   {
     name: "Code Carbon",
@@ -374,7 +389,7 @@ const projects = [
     isLive: true,
     liveLink: "https://code-carbon.onrender.com/",
     image: codecarbon,
-    source_code_link: "https://github.com/shuvra-matrix/CODE-CARBON",
+    // source_code_link: "https://github.com/shuvra-matrix/CODE-CARBON",
   },
   {
     name: "Synop Web App",
@@ -398,8 +413,8 @@ const projects = [
     isLive: true,
     liveLink: "https://synops.netlify.app/",
     image: summerize,
-    source_code_link:
-      "https://github.com/shuvra-matrix/summarize-articles--MERN-",
+    // source_code_link:
+    //   "https://github.com/shuvra-matrix/summarize-articles--MERN-",
   },
   {
     name: "Housekeeping Management System",
@@ -423,8 +438,8 @@ const projects = [
     isLive: false,
     liveLink: "https://synops.netlify.app/",
     image: housekeeping,
-    source_code_link:
-      "https://github.com/shuvra-matrix/-Housekeeping-Management-System-in-the-Hospitality-Industry",
+    // source_code_link:
+    //   "https://github.com/shuvra-matrix/-Housekeeping-Management-System-in-the-Hospitality-Industry",
   },
   {
     name: "E Commerce Website",
@@ -449,8 +464,8 @@ const projects = [
     isLive: false,
     liveLink: "https://synops.netlify.app/",
     image: phpecommers,
-    source_code_link:
-      "https://github.com/shuvra-matrix/E-Commerce-Website-Using-PHP?tab=readme-ov-file",
+    // source_code_link:
+    //   "https://github.com/shuvra-matrix/E-Commerce-Website-Using-PHP?tab=readme-ov-file",
   },
   {
     name: "Heart Disease Prediction",
@@ -474,8 +489,8 @@ const projects = [
     isLive: false,
     liveLink: "https://synops.netlify.app/",
     image: heartdesease,
-    source_code_link:
-      "https://github.com/shuvra-matrix/HEART_DISEASE_PREDICTION",
+    // source_code_link:
+    //   "https://github.com/shuvra-matrix/HEART_DISEASE_PREDICTION",
   },
   {
     name: "Mon Blog CMS App",
@@ -496,10 +511,10 @@ const projects = [
       },
     ],
     category: ["all", "web"],
-    isLive: true,
+    isLive: false,
     liveLink: "https://shuvra.epizy.com/",
     image: phpblog,
-    source_code_link: "https://github.com/shuvra-matrix/PHP-CMS",
+    // source_code_link: "https://github.com/shuvra-matrix/PHP-CMS",
   },
   {
     name: "School Management System",
@@ -523,7 +538,7 @@ const projects = [
     isLive: false,
     liveLink: "https://synops.netlify.app/",
     image: djangolms,
-    source_code_link: "https://github.com/shuvra-matrix/LMS-Using-Django",
+    // source_code_link: "https://github.com/shuvra-matrix/LMS-Using-Django",
   },
   {
     name: "Online Examination Portal",
@@ -547,8 +562,8 @@ const projects = [
     isLive: false,
     liveLink: "https://synops.netlify.app/",
     image: onlineexamination,
-    source_code_link:
-      "https://github.com/shuvra-matrix/Online-Examination-Portal",
+    // source_code_link:
+    //   "https://github.com/shuvra-matrix/Online-Examination-Portal",
   },
 ];
 
