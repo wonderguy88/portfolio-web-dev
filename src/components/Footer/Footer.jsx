@@ -14,14 +14,14 @@ const Footer = () => {
   return (
     <div className={styles["footer-main"]}>
       <p>&copy; 2024 {MyBio.name}</p>
-      <div>
+      {/* <div>
         <img onClick={githubIconClickHandler} src={github} alt={"github"} />
         <img
           onClick={linkdinLogoClickHandler}
           src={linkdinLogo}
           alt={"linkdinLogo"}
         />
-      </div>
+      </div> */}
     </div>
   );
 };
