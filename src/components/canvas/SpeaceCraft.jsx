@@ -85,7 +85,7 @@ const SpaceCanvas = () => {
           autoRotateSpeed={2.0}
           rotateSpeed={2.0}
         />
-        <SpaceCraft isMobile={isMobile} isTablet={isTablet} />
+        {/* <SpaceCraft isMobile={isMobile} isTablet={isTablet} /> */}
         <Preload all />
       </Suspense>
     </Canvas>

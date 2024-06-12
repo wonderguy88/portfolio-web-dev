@@ -32,6 +32,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 18px 12px;
+  background-color: indigo;
+  border-radius: 10%;
 }
 
 .scrolled-nav {

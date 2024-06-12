@@ -9,6 +9,9 @@ import Card from "../UI/Card.jsx";
 const serviceData = [
   { title: "Backend Developer", icon: backend },
   { title: "Frontend Developer", icon: creator },
+  { title: "PHP/Laravel Developer", icon: backend },
+  { title: "MERN/T3 Stack Expert", icon: creator },
+  { title: "Three.JS Specialist", icon: backend },
 ];
 
 const About = () => {

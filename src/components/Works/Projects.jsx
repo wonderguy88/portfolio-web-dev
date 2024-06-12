@@ -79,26 +79,6 @@ const Projects = () => {
       </motion.p>
 
       <div className={styles["projects-section"]} ref={projectRef}>
-        <div className={styles["project-nav"]}>
-          <div
-            className={`${styles["first-nav"]} ${activeNav === "all" ? styles["active-nav"] : ""}`}
-            onClick={() => activeNavHandler("all")}
-          >
-            <p>ALL</p>
-          </div>
-          <div
-            className={`${styles["snd-nav"]} ${activeNav === "web" ? styles["active-nav"] : ""}`}
-            onClick={() => activeNavHandler("web")}
-          >
-            <p>WEB APP'S</p>
-          </div>
-          <div
-            className={`${styles["trd-nav"]} ${activeNav === "other" ? styles["active-nav"] : ""}`}
-            onClick={() => activeNavHandler("other")}
-          >
-            <p>OTHER'S</p>
-          </div>
-        </div>
         <div className={styles["projects-sub"]}>
           {projectData
             ?.slice(paginationCondition.start, paginationCondition.end)

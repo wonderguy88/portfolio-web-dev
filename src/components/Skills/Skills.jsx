@@ -18,8 +18,7 @@ const Skills = () => {
         className={styles["skills-me-long"]}
         variants={fadeIn("", "", 0.1, 1)}
       >
-        Here are some of my skills on which i have been working on for the past
-        3 years.
+        Here are some of my skills on which i have been working throughout many years
       </motion.p>
       <div className={styles["skill-card"]}>
         {skills.map((data, index) => (

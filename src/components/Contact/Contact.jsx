@@ -130,7 +130,6 @@ const Contact = () => {
 
   return (
     <Card id={"contact"} title={"GET IN TOUCH"} overview={"Contact."}>
-      <StyledStarsCanvas />
       <div className={styles["contact-container-main"]}>
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
