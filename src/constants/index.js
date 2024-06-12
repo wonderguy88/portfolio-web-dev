@@ -22,7 +22,7 @@ import {
 
 const MyBio = {
   name: "Nikolozi Svanadze",
-  roles: ["Full Stack Developer", "Backend Developer", "Frontend Developer"],
+  roles: ["Full Stack Developer", "Backend Developer", "Frontend Developer", "MERN STACK/PHP/Laravel/3D Frontend/Next.JS Expert"],
   description:
     "I hold a B.Tech degree in Computer Science and Business Systems and have cultivated my expertise as a self-taught Full Stack Developer.I love making websites that are not only pretty but also easy to use and work well.",
   resume:

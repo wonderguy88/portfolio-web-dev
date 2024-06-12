@@ -49,7 +49,7 @@ const Navbar = () => {
               <img src={logo} alt="logo" />
             </div>
             <h4 className={styles["name"]}>
-              {MyBio.name.slice(0, 6)} | Portfolio
+              {MyBio.name} | Portfolio
             </h4>
           </div>
           <div className={styles["about-section"]}>
