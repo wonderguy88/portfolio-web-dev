@@ -21,15 +21,20 @@ import {
 } from "../assets";
 
 const MyBio = {
-  name: "Nikolozi Svanadze",
-  roles: ["Full Stack Developer", "Backend Developer", "Frontend Developer", "MERN STACK/PHP/Laravel/3D Frontend/Next.JS Expert"],
+  name: "Vasili Saldadze",
+  roles: [
+    "Full Stack Developer",
+    "Backend Developer",
+    "Frontend Developer",
+    "MERN STACK/PHP/Laravel/3D Frontend/Next.JS Expert",
+  ],
   description:
     "I hold a B.Tech degree in Computer Science and Business Systems and have cultivated my expertise as a self-taught Full Stack Developer.I love making websites that are not only pretty but also easy to use and work well.",
   resume:
     "https://drive.google.com/file/d/1xvFnag1rTS0dwPo0G0FCFEc9BDxNOD7x/view?usp=sharing",
   linkdin: "https://www.linkedin.com/in/shuvra-chakrabarty-88a373217",
-  github: "https://github.com/nikolozi0525",
-  email: "nikolozi0525@gmail.com",
+  github: "https://github.com/vasili0525",
+  email: "vasili0525@gmail.com",
 };
 
 export const skills = [
@@ -59,11 +64,10 @@ export const skills = [
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },      
+      },
       {
         name: "Three JS",
-        image:
-          "skills/threeJS.png",
+        image: "skills/threeJS.png",
       },
       {
         name: "Bootstrap",
@@ -77,19 +81,20 @@ export const skills = [
       },
       {
         name: "Tailwindcss",
-        image: "https://cpwebassets.codepen.io/assets/packs/tailwind-df31d14b8c3a2386ca726ca2a4bc12db.svg"
+        image:
+          "https://cpwebassets.codepen.io/assets/packs/tailwind-df31d14b8c3a2386ca726ca2a4bc12db.svg",
       },
       {
         name: "Next.JS",
-        image: "skills/nextjs.png"
+        image: "skills/nextjs.png",
       },
       {
         name: "Typescript",
-        image: "skills/icons8-typescript-24.png"
+        image: "skills/icons8-typescript-24.png",
       },
       {
         name: "Vue JS",
-        image: "skills/icons8-vue-js-64.png"
+        image: "skills/icons8-vue-js-64.png",
       },
     ],
   },
@@ -167,34 +172,28 @@ export const skills = [
       },
       {
         name: ".NET",
-        image:
-          "skills/net.png",
+        image: "skills/net.png",
       },
 
       {
         name: "Payment Card API",
-        image:
-          "skills/payment.png",
+        image: "skills/payment.png",
       },
       {
         name: "Vercel",
-        image:
-          "skills/vercel.png",
+        image: "skills/vercel.png",
       },
       {
         name: "R Programming",
-        image:
-          "skills/R.png",
+        image: "skills/R.png",
       },
       {
         name: "WebRTC",
-        image:
-          "skills/webRTC.png",
+        image: "skills/webRTC.png",
       },
       {
         name: "Electron",
-        image:
-          "skills/electron.png",
+        image: "skills/electron.png",
       },
       {
         name: "Figma",
@@ -203,8 +202,7 @@ export const skills = [
       },
       {
         name: "Chart JS",
-        image:
-          "skills/chartJS.png",
+        image: "skills/chartJS.png",
       },
     ],
   },
@@ -288,7 +286,7 @@ const projects = [
     isLive: false,
     // liveLink: "https://geminichatai.netlify.app/",
     image: pdfviewerImg,
-    source_code_link: "https://github.com/nikolozi0525/PDFViewer",
+    source_code_link: "https://github.com/vasili0525/PDFViewer",
   },
   {
     name: "3D Furniture Design",
@@ -316,7 +314,7 @@ const projects = [
     isLive: true,
     liveLink: "https://chair3d-config.vercel.app/",
     image: chairImg,
-    source_code_link: "https://github.com/nikolozi0525/chair3d-config",
+    source_code_link: "https://github.com/vasili0525/chair3d-config",
   },
   {
     name: "Elster Portal App",
@@ -345,7 +343,7 @@ const projects = [
     isLive: true,
     liveLink: "https://www.elster.de/eportal/infoseite/aktuelles",
     image: elsterImg,
-    source_code_link: "https://github.com/nikolozi0525/nextjs-elster-portal",
+    source_code_link: "https://github.com/vasili0525/nextjs-elster-portal",
   },
   {
     name: "Bible Interactive App",
@@ -374,7 +372,7 @@ const projects = [
     liveLink: "https://react-bible-question-survey.vercel.app/",
     image: bibleImg,
     source_code_link:
-      "https://github.com/nikolozi0525/react-bible-question-survey",
+      "https://github.com/vasili0525/react-bible-question-survey",
   },
   {
     name: "Home Design Tool",
@@ -398,8 +396,7 @@ const projects = [
     isLive: true,
     liveLink: "https://threejs-home-design-tool.vercel.app/",
     image: homedesignImg,
-    source_code_link:
-      "https://github.com/nikolozi0525/threejs-home-design-tool",
+    source_code_link: "https://github.com/vasili0525/threejs-home-design-tool",
   },
 ];
 
