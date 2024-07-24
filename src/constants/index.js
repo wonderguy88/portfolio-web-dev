@@ -21,7 +21,7 @@ import {
 } from "../assets";
 
 const MyBio = {
-  name: "Vasili Saldadze",
+  name: "Jorg Reemts",
   roles: [
     "Full Stack Developer",
     "Backend Developer",
@@ -33,8 +33,8 @@ const MyBio = {
   resume:
     "https://drive.google.com/file/d/1xvFnag1rTS0dwPo0G0FCFEc9BDxNOD7x/view?usp=sharing",
   linkdin: "https://www.linkedin.com/in/shuvra-chakrabarty-88a373217",
-  github: "https://github.com/vasili0525",
-  email: "vasili0525@gmail.com",
+  github: "https://github.com/jgmts33",
+  email: "jgmts33@gmail.com",
 };
 
 export const skills = [
@@ -286,7 +286,7 @@ const projects = [
     isLive: false,
     // liveLink: "https://geminichatai.netlify.app/",
     image: pdfviewerImg,
-    source_code_link: "https://github.com/vasili0525/PDFViewer",
+    source_code_link: "https://github.com/jgmts33/PDFViewer",
   },
   {
     name: "3D Furniture Design",
@@ -314,7 +314,7 @@ const projects = [
     isLive: true,
     liveLink: "https://chair3d-config.vercel.app/",
     image: chairImg,
-    source_code_link: "https://github.com/vasili0525/chair3d-config",
+    source_code_link: "https://github.com/jgmts33/chair3d-config",
   },
   {
     name: "Elster Portal App",
@@ -343,7 +343,7 @@ const projects = [
     isLive: true,
     liveLink: "https://www.elster.de/eportal/infoseite/aktuelles",
     image: elsterImg,
-    source_code_link: "https://github.com/vasili0525/nextjs-elster-portal",
+    source_code_link: "https://github.com/jgmts33/nextjs-elster-portal",
   },
   {
     name: "Bible Interactive App",
@@ -371,8 +371,7 @@ const projects = [
     isLive: true,
     liveLink: "https://react-bible-question-survey.vercel.app/",
     image: bibleImg,
-    source_code_link:
-      "https://github.com/vasili0525/react-bible-question-survey",
+    source_code_link: "https://github.com/jgmts33/react-bible-question-survey",
   },
   {
     name: "Home Design Tool",
@@ -396,7 +395,7 @@ const projects = [
     isLive: true,
     liveLink: "https://threejs-home-design-tool.vercel.app/",
     image: homedesignImg,
-    source_code_link: "https://github.com/vasili0525/threejs-home-design-tool",
+    source_code_link: "https://github.com/jgmts33/threejs-home-design-tool",
   },
 ];
 

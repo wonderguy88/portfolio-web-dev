@@ -16,7 +16,10 @@ const Hero = () => {
 
   return (
     <section className={styles["hero-container"]}>
-      <div className="d-flex" style={{ display: "flex", width: "100%", height: "100%"  }}>
+      <div
+        className="d-flex"
+        style={{ display: "flex", width: "100%", height: "100%" }}
+      >
         <StyledStarsCanvas />
         <FireFlipCard />
       </div>
@@ -29,7 +32,7 @@ const Hero = () => {
           </div>
           <div className={styles["about-section"]}>
             <h2>
-              Hi, I'm <span>{MyBio.name.slice(0, 8)}</span>
+              Hi, I'm <span>{MyBio.name.slice(0, 20)}</span>
             </h2>
             <h3>
               I'm a
